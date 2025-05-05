@@ -1,0 +1,517 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap);
+
+@font-face {
+    font-family: 'Balqis';
+    src: url('../fonts/Balqis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.bg_top {
+    background: url(../images/top_bg.jpg) center / cover no-repeat;
+    width: 100%;
+    height: 177vh;
+    position: relative;
+}
+
+.top_menu {
+    display: flex;
+    width: 100%;
+}
+
+.menu_wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 40%;
+    margin-top: 35px;
+}
+
+.nav a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+.our_phone {
+    display: flex;
+    width: 35%;
+    gap: 10px;
+    margin-top: 35px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.our_phone a {
+    text-decoration: none;
+    color: black;
+}
+
+.our_phone img {
+    height: 28px;
+    margin-top: 7px;
+}
+
+.top_title_wrapper {
+    position: relative;
+    text-align: center;
+    margin-top: 20%;
+}
+
+h1 {
+    font-family: "Balqis";
+    font-size: 250px;
+    font-weight: 400;
+    color: black;
+}
+
+.top_title_wrapper p {
+    font-family: "Roboto Condensed";
+    font-size: 56px;
+    font-weight: 300;
+    font-style: italic;
+    color: black;
+    position: absolute;
+    right: 75px;
+    bottom: -15px;
+}
+
+.title_wrapper_2 {
+    position: relative;
+    width: 35%;
+}
+
+h2 {
+    font-family: "Balqis";
+    font-size: 96px;
+    font-weight: 400;
+    color: #E2AB3F;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.fairy_tail_sub {
+    position: absolute;
+    bottom: -25px;
+    left: 180px;
+}
+
+.fairy_tail_content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#carousel_1 {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 70px;
+    /* overflow: hidden; */
+}
+
+#carousel_1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper_fairy_tail_text {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    padding: 30px 0 20px 30px;
+}
+
+.wrapper_fairy_tail_text p {
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+.wrapper_fairy_tail_text h6 {
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.title_wrapper_3 {
+    position: relative;
+    margin-top: 30px;
+}
+
+.title_wrapper_3 p {
+    position: absolute;
+    left: 241px;
+    bottom: -25px;
+}
+
+.wrapper_our_trip_text {
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+.wrapper_our_trip_text h5 {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+}
+
+.wrapper_our_trip_text p {
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+#carousel_2 {
+    width: 100%;
+    height: 60%;
+    /* overflow: hidden; */
+}
+
+/* #carousel_2 .carousel-inner {
+    display: flex;
+    flex-direction: column;
+} */
+
+#carousel_2 .carousel-item {
+    height: 100%;
+}
+
+#carousel_2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.our_trip_content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.wrapper_our_trip_text button {
+    width: 280px;
+    height: 50px;
+    border: 1px solid #E2AB3F;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 40px;
+    color: black;
+}
+
+.title_wrapper_4 {
+    position: relative;
+}
+
+.title_wrapper_4 p {
+    position: absolute;
+    left: 120px;
+    bottom: -26px;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: black;
+}
+
+.hotel_content_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.hotel_content_wrapper img {
+    width: 500px;
+    height: 100%;
+}
+
+.hotel_content_right_wrapper {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hotel_text_wrapper {
+    width: 85%;
+    padding-bottom: 45px;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    flex: 0 1 70%;
+}
+
+.grid img {
+    width: 280px;
+    height: 150px;
+}
+
+.title_wrapper_5 {
+    position: relative;
+}
+
+.title_wrapper_5 p {
+    position: absolute;
+    left: 120px;
+    bottom: -26px;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: black;
+}
+
+.price_text_wrapper {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+
+.price_text_included {
+    width: 45%;
+}
+
+/* .price_not_included {
+    position: relative;
+} */
+
+.price_text_included h3,
+.price_not_included h3 {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.price_text_included,
+.price_not_included p {
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+}
+
+#baloon_big {
+    width: 206px;
+    height: 305px;
+    /* position: absolute;
+    top: 100;
+    left: 200; */
+}
+
+#balon_top {
+    width: 73px;
+    height: 108px;
+    /* position: absolute;
+    top: 300;
+    left: 300; */
+}
+
+#baloon_bottom {
+    width: 73px;
+    height: 108px;
+}
+
+.price {
+    margin-bottom: 70px;
+}
+
+.CTA_content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.CTA_photo img {
+    width: 600px;
+    height: 800px;
+}
+
+.title_wrapper_6 {
+    position: relative;
+}
+
+.title_wrapper_6 h2 {
+    width: 80%;
+    text-align: end;
+}
+
+.title_wrapper_6 p {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    color: black;
+
+}
+
+#nearest_date {
+    position: absolute;
+    right: 10px;
+    top: 96px;
+}
+
+#price {
+    position: absolute;
+    bottom: -25px;
+    right: 35px;
+}
+
+.leave_order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leave_order p {
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 50px;
+}
+
+#order_name,
+#order_phone {
+    width: 383px;
+    height: 50px;
+    border: 1px solid #E2AB3F;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    padding-left: 31px;
+    margin-bottom: 20px;
+}
+
+#order_phone::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.leave_order button {
+    width: 280px;
+    height: 50px;
+    border: 1px solid #E2AB3F;
+    font-family: "Roboto Condensed";
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+}
+
+.bg_footer {
+    background: url(../images/bottom_bg.png) center / cover no-repeat;
+    width: 100%;
+    height: 177vh;
+    position: relative;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.bg_baloon {
+    background: url(../images/balloon_bg.png) center;
+    width: 356px;
+    min-height: 527px;
+    position: relative;
+    top: 100px;
+    left: 0;
+}
+
+.baloon_inner_wrapper h2 {
+    margin: 0 auto 10px;
+}
+
+.footer_phone p,
+.footer_mail p {
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+
+}
+
+.footer_content h3 {
+    font-family: "Balqis";
+    font-size: 86px;
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    top: 355px;
+    right: 0;
+}
+
+.footer_phone,
+.footer_mail {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.footer_phone img,
+.footer_mail img {
+    width: 30px;
+    height: 30px;
+}
+
+.baloon_inner_wrapper {
+    position: absolute;
+    top: 70px;
+    left: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.icons_footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
