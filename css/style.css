@@ -22,13 +22,14 @@
 .bg_top {
     background: url(../images/top_bg.jpg) center / cover no-repeat;
     width: 100%;
-    height: 177vh;
+    height: 197vh;
     position: relative;
 }
 
 .top_menu {
     display: flex;
     width: 100%;
+    padding-top: 50px;
 }
 
 .menu_wrapper {
@@ -85,7 +86,7 @@
 .top_title_wrapper {
     position: relative;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 40%;
 }
 
 h1 {
@@ -93,6 +94,9 @@ h1 {
     font-size: 250px;
     font-weight: 400;
     color: black;
+    position: absolute;
+    left: 201px;
+    bottom: -15px;
 }
 
 .top_title_wrapper p {
@@ -102,8 +106,8 @@ h1 {
     font-style: italic;
     color: black;
     position: absolute;
-    right: 75px;
-    bottom: -15px;
+    right: 200px;
+    bottom: -40px;
 }
 
 .title_wrapper_2 {
@@ -383,7 +387,8 @@ h2 {
 
 .CTA_content_wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10%;
     margin-bottom: 100px;
 }
 
@@ -489,13 +494,13 @@ h2 {
     margin: 0 auto 10px;
 }
 
-.footer_phone p,
-.footer_mail p {
+.footer_phone a,
+.footer_mail a {
     font-family: "Roboto Condensed";
     font-size: 18px;
     font-weight: 300;
     color: black;
-
+    text-decoration: none;
 }
 
 .footer_content h3 {
