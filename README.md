@@ -26,7 +26,7 @@ Bootstrap
 
 🚀 Demo
 
-![view the website](https://img.shields.io/badge/View%20Demo-Open%20in%20Browser-blue?style=for-the-badge)](https://irenefox2025.github.io/Cappadocia/)
+[![view the website](https://img.shields.io/badge/View%20Demo-Open%20in%20Browser-blue?style=for-the-badge)](https://irenefox2025.github.io/Cappadocia.png)
 
 📸 Screenshot
 
