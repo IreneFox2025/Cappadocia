@@ -1,4 +1,4 @@
-Cappadocia 🌍✈️
+CAPPADOCIA 🌍✈️
 
 Training Project – a single-page landing website designed to promote and sell a tourist trip to Cappadocia.
 Built with HTML, CSS, and Bootstrap.
@@ -26,12 +26,11 @@ Bootstrap
 
 🚀 Demo
 
-View Live Demo
-[view the website] (https://irenefox2025.github.io/Cappadocia/)
+![view the website](https://img.shields.io/badge/View%20Demo-Open%20in%20Browser-blue?style=for-the-badge)](https://irenefox2025.github.io/Cappadocia/)
 
 📸 Screenshot
 
-(Add screenshot preview here)
+![page screenshot](./assets/Cappadocia)
 
 📬 Contact
 
