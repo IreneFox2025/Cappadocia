@@ -19,6 +19,7 @@ Interactive components from Bootstrap (carousel, grid system, etc.)
 ├── fonts
 └── images
 └── assets
+└── Readme
 ```
 
 🛠️ Technologies Used
@@ -33,7 +34,7 @@ Bootstrap
 
 📸 Screenshot
 
-![page_screenshot](/assets/Cappadocia)
+![page_screenshot](./assets/Cappadocia.png)
 
 📬 Contact
 
