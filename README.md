@@ -12,11 +12,14 @@ Clean, semantic structure with HTML5 & CSS3
 Interactive components from Bootstrap (carousel, grid system, etc.)
 
 📂 Project Structure
+```bash
 ├── index.html
 ├── css
 │   └── style.css
 ├── fonts
 └── images
+└── assets
+```
 
 🛠️ Technologies Used
 
@@ -30,7 +33,7 @@ Bootstrap
 
 📸 Screenshot
 
-![page screenshot](assets/Cappadocia)
+![page_screenshot](/assets/Cappadocia)
 
 📬 Contact
 
