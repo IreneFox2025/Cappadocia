@@ -26,9 +26,9 @@ Built with **HTML**, **CSS**, and **Bootstrap**.
 
 🛠️ Technologies Used
 
-HTML5
-CSS3
-Bootstrap
+- HTML5  
+- CSS3  
+- Bootstrap
 
 ---
 
